@@ -1,0 +1,26 @@
+# Large raw datasets (must not be committed to Git)
+dataset/
+/dataset
+
+# Model checkpoints & vectorizer artifacts
+artifacts/
+artifacts_smoke/
+*.joblib
+
+# Output predictions
+output/
+output_smoke/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & secrets
+venv/
+env/
+.env
+
+# OS metadata
+.DS_Store
+Thumbs.db
